@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My website</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 2em;
+        }
+
+        #mysubmit {
+            font-size: 1em;
+        }
+    </style>
+</head>
+<body>
+    <input type="checkbox" id="mycheckbox">
+    <label for="mycheckbox">subscribe</label><br><br>
+
+    <input type="radio" id="visabtn" name="card">
+    <label for="visabtn">Visa</label><br>
+
+    <input type="radio" id="mastercardbtn" name="card">
+    <label for="mastercardbtn">MasterCard</label><br>
+
+    <input type="radio" id="paypalbtn" name="card">
+    <label for="paypalbtn">PayPal</label><br><br>
+
+    <button type="submit" id="mysubmit">submit</button>
+
+    <p id="subresult"></p>
+    <p id="paymentresult"></p>
+
+    <script src="index.js"></script>
+
+    <!--Colocamos o name nos input para fazer com que apenas possa marcar um por vez-->
+</body>
+</html>
