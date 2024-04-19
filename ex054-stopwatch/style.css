@@ -1,0 +1,68 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #C4EBC8;
+}
+
+#myH1 {
+    font-size: 5em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #333;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    border: 5px solid;
+    border-radius: 50px;
+    background-color: #fff;
+}
+
+#display {
+    font-size: 5em;
+    font-family: monospace;
+    font-weight: bold;
+    color: #333;
+    text-shadow: 2px 2px 2px #000;
+    margin-bottom: 25px;
+}
+
+#controls button {
+    font-size: 2em;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 5px;
+    min-width: 125px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: background-color 0.5s ease;
+}
+
+#startBtn {
+    background-color: rgb(17, 170, 17);
+}
+
+#startBtn:hover {
+    background-color: green;
+}
+
+#stopBtn {
+    background-color: rgb(165, 47, 47);
+}
+
+#stopBtn:hover {
+    background-color: red;
+}
+
+#resetBtn {
+    background-color: #1c6ed3;
+}
+
+#resetBtn:hover {
+    background-color: #0065E0;
+}
